@@ -20,7 +20,7 @@ t4 <- read_csv("fishing_combo.csv") #"https://zenodo.org/records/1167852/files/T
 t4_n <- subset(t4, subpop != "x") #exclude groups with potential farming contact for subsistence
 
 sea_level_Lambeck_PNAS <- readxl::read_excel("Lambeck et al. 2014 PNAS Table S3.xlsx") #the SI
-bath <- rast("C:/Users/jblin/OneDrive - The University of Liverpool/Malta Population/malta_bath_proj.tif")#this is GEBCO2019 that has been cropped in ESRI ArcMAP 10.5 to E12-16 N35-39 and projected to UTM33N
+bath <- rast("malta_bath_proj.tif")#this is GEBCO2019 that has been cropped in ESRI ArcMAP 10.5 to E12-16 N35-39 and projected to UTM33N
 
 ####GENERATE MIAMI ####
 
